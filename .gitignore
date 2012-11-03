@@ -1,0 +1,5 @@
+_site/*
+_pdf/*
+_gitstats/*
+_references/*
+.DS_Store
