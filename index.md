@@ -1,13 +1,8 @@
 ---
 layout: default
 permalink: index.html
-title: ihower 的 git 課程
+title: ihower 的 Git 教室
 ---
-
-上課投影片
-======
-
-[投影片下載](files/ihower-git.pdf)
 
 部落格文章
 ===
