@@ -21,15 +21,15 @@ title: ihower 的 Git 教室
 ### 部落格文章
 
 <ul>
-<li><a href="http://ihower.tw/blog/archives/6704/">Git rebase 和 merge 合併操作示範錄影</a></li>
-<li><a href="http://ihower.tw/blog/archives/5691">如何建立一個沒有 Parent 的 Git branch</a></li>
-<li><a href="http://ihower.tw/blog/archives/5436">我的 Git 偏好設定</a></li>
-<li><a href="http://ihower.tw/blog/archives/5140">Git flow 開發流程 </a></li>
+<li><a href="http://ihower.tw/blog/archives/1733">Github 分散式版本控制的殺手級應用</a></li>
+<li><a href="http://ihower.tw/blog/archives/2591">Git 版本控制系統 (1)</a></li>
+<li><a href="http://ihower.tw/blog/archives/2620">Git 版本控制系統 (2) 開 branch 分支和操作遠端 repo. </a></li>
 <li><a href="http://ihower.tw/blog/archives/2622">Git 版本控制系統 (3) 還沒 push 前可以做的事</a></li>
 <li><a href="http://ihower.tw/blog/archives/3843">使用 git rebase 避免無謂的 merge</a></li>
-<li><a href="http://ihower.tw/blog/archives/2620">Git 版本控制系統 (2) 開 branch 分支和操作遠端 repo. </a></li>
-<li><a href="http://ihower.tw/blog/archives/2591">Git 版本控制系統 (1)</a></li>
-<li><a href="http://ihower.tw/blog/archives/1733">Github 分散式版本控制的殺手級應用</a></li>
+<li><a href="http://ihower.tw/blog/archives/5140">Git flow 開發流程 </a></li>
+<li><a href="http://ihower.tw/blog/archives/5436">我的 Git 偏好設定</a></li>
+<li><a href="http://ihower.tw/blog/archives/5691">如何建立一個沒有 Parent 的 Git branch</a></li>
+<li><a href="http://ihower.tw/blog/archives/6704/">Git rebase 和 merge 合併操作示範錄影</a></li>
 </ul>
 
 ### 其他英文資源
