@@ -7,7 +7,7 @@ title: ihower 的 git 課程
 上課投影片
 ======
 
-[投影片下載 (2012-11-4)](files/ihower-git.pdf)
+[投影片下載](files/ihower-git.pdf)
 
 部落格文章
 ===
