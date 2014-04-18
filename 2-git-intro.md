@@ -8,7 +8,7 @@ title: ihower 的 Git 教室
 
 版本控制系統是當代軟體開發所不可或缺的工具，而 Git 是其中最先進和熱門、且為開放原始碼的分散式版本控制系統(DVCS)。
 
-Git 是由 Linux Torvalds 所發明，一開始的目的是為了管理 Linux Kernel 原始碼，他於2005/4 開始開發，2005/6 開始管理  Linux Kernel，2005/12 就釋出了 1.0 版。
+Git 是由 Linus Torvalds 所發明，一開始的目的是為了管理 Linux Kernel 原始碼，他於2005/4 開始開發，2005/6 開始管理  Linux Kernel，2005/12 就釋出了 1.0 版。
 
 因其分散式、效能好、本地存取、無痛分支的特性，而普遍適合各種開發流程，近年來受到多數人喜愛。使用 Git 的專案包括：Linux Kernel, Apache, Debian, Drupal, Eclipse, Fedora, Gnome, KDE, Perl, PHP, PostgreSQL, Ruby on Rails, Node.js, JQuery, YUI... 等等。諸如 Google, facebook, Microsoft, Twitter, Linkedin, NetFlix 等公司皆有使用 Git 作為版本控制系統。
 
@@ -30,15 +30,15 @@ Git 是由 Linux Torvalds 所發明，一開始的目的是為了管理 Linux Ke
 	git config --global user.name "Your Name"
 	git config --global user.email "your@email.com"
 	git config --global color.ui true
-	
-	git config --global core.editor vi 
+
+	git config --global core.editor vi
 	或 git config --global core.editor gedit
-	
+
 安裝 GUI
 
     sudo apt-get install gitg
 	或 sudo apt-get install gitk
-	
+
 > Github 上的安裝文件 [http://help.github.com/linux-set-up-git/](http://help.github.com/linux-set-up-git/)
 
 
@@ -66,9 +66,9 @@ Windows 平台上還有一件要注意的事情，就是對於換行字元的處
 如果是透過 [Homebrew](http://mxcl.github.com/homebrew/) 安裝的話：
 
     $  brew install git
-    
+
 > Github 上的安裝文件 [http://help.github.com/mac-set-up-git/](http://help.github.com/mac-set-up-git/)
-	
+
 ### 產生 SSH Key
 
 因為 Git 的伺服器大多使用 SSH public/private key 來做認證，請用以下步驟產生 SSH Key。稍後會用 [Github](http://github.com) 練習。
@@ -77,7 +77,7 @@ Windows 平台上還有一件要注意的事情，就是對於換行字元的處
 	cat ~/.ssh/id_rsa.pub
 	複製下來貼到 Github 帳號 -> Account Settings -> SSH Keys 裡
 	這樣在 Github 開專案，就可以 push 和 pull 下來了。
-		
+
 ### 其他參考步驟
 
 一些好用的 git alias，請編輯 ~/.gitconfig
@@ -96,7 +96,7 @@ Windows 平台上還有一件要注意的事情，就是對於換行字元的處
         g = grep -n --color -E
         cp = cherry-pick -x
 	    nb = checkout -b
-	     
+
         # 'git add -u' handles deleted files, but not new files
         # 'git add .' handles any current and new files, but not deleted
         # 'git addall' now handles all changes
@@ -106,7 +106,7 @@ Windows 平台上還有一件要注意的事情，就是對於換行字元的處
         rc = rebase --continue
         rs = rebase --skip
         ra = rebase --abort
-        
+
 命令列(Bash)提示，請編輯 ~/.bashrc
 
     function git_branch {
@@ -121,12 +121,12 @@ Windows 平台上還有一件要注意的事情，就是對於換行字元的處
       minutes_since_last_commit=$((seconds_since_last_commit/60));
       hours_since_last_commit=$((minutes_since_last_commit/60));
       minutes_since_last_commit=$((minutes_since_last_commit%60));
-    
+
       echo "${hours_since_last_commit}h${minutes_since_last_commit}m ";
     }
 
-    PS1="[\[\033[1;32m\]\w\[\033[0m\]] \[\033[0m\]\[\033[1;36m\]\$(git_branch)\[\033[0;33m\]\$(git_since_last_commit)\[\033[0m\]$ " 
-	
+    PS1="[\[\033[1;32m\]\w\[\033[0m\]] \[\033[0m\]\[\033[1;36m\]\$(git_branch)\[\033[0;33m\]\$(git_since_last_commit)\[\033[0m\]$ "
+
 ### 參考資料
 
 * [Why Git is Better than X](http://thkoch2001.github.com/whygitisbetter/)
