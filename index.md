@@ -30,6 +30,7 @@ title: ihower 的 Git 教室
 <li><a href="http://ihower.tw/blog/archives/5436">我的 Git 偏好設定</a></li>
 <li><a href="http://ihower.tw/blog/archives/5691">如何建立一個沒有 Parent 的 Git branch</a></li>
 <li><a href="http://ihower.tw/blog/archives/6704/">Git rebase 和 merge 合併操作示範錄影</a></li>
+<li><a href="http://ihower.tw/blog/archives/7465">Yet another introduction to Git – from the bottom up 投影片</a></li>
 </ul>
 
 ### 其他英文資源
