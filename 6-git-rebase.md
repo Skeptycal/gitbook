@@ -24,7 +24,7 @@ title: ihower 的 Git 教室
 ### 集大成：rebase + merge 的 完美 合併法
 假設我們要將 feature branch 合併回主幹 develop原因* feature branch 很亂，不時 merge 與主幹同步* feature branch 有 typo，commit 訊息想改* feature branch 有些 commits 想合併或拆開
 作法* 先在 feature branch 做 git rebase develop -i* (反覆整理直到滿意) git rebase 分岔點 -i * 在從 develop branch 做 git merge feature --no-ff
-[Git rebase 和 merge 合併操作示範錄影](http://ihower.tw/blog/archives/6704/)
+實際操作可以參考這份錄影：[Git rebase 和 merge 合併操作示範錄影](http://ihower.tw/blog/archives/6704/)
 注意事項
 * 必須要加 --no-ff 才會有 merge commit。不然會是 fast-forward。* rebase 之後的 feature branch 就不要再 push 出去了* 如果有遠端的 feature branch，合併完也砍掉
 * 不求一次 rebase 到完美，不然中間的 conflict 會搞混。* 可以一次改點東西就 rebase 一次，然後開個臨時的 branch 存檔起來，再繼續 rebase 自己直到滿意為止。

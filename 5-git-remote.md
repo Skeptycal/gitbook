@@ -8,7 +8,7 @@ title: ihower 的 Git 教室
 
 上一章介紹了在本地端用`git init`初始了一個*Repository*。不過，比較常的情況是你是從拷貝一個已經存在的 Repository 開始開發。Git 有以下四種方法來存取遠端的*Git*伺服器：
 
-* SSH 安全性最佳	* git clone git@github.com:ihower/sandbox.git* HTTP/HTTPS 速度最差，但能突破防火牆限制	* git clone https://ihower@github.com/ihower/sandbox.git* Git protocol 速度最快，但缺認證機制(因此只能做成唯讀)	* git clone git://github.com/ihower/sandbox.git* File 本機目錄 (有人用 Dropbox 分享 git init --bare --shared 目錄!! Crazy!!) 	* git clone file://path/to/repo.git
+* SSH 安全性最佳	* git clone git@github.com:ihower/sandbox.git* HTTP/HTTPS 速度最差，但能突破防火牆限制	* git clone https://ihower@github.com/ihower/sandbox.git* File 本機目錄 (有人用 Dropbox 分享 git init --bare --shared 目錄!! Crazy!!) 	* git clone file://path/to/repo.git
 ### 以 GitHub Repository 為例
 
 [GitHub](http://github.com) 是基於 Git 這套分散式版本控制系統的 Repository hosting 應用，只要是開放原始碼軟體，都可以免費的使用這個服務。這裡就使用*Github*來進行練習：
@@ -20,8 +20,7 @@ title: ihower 的 Git 教室
 
 以筆者的專案 [Sandbox](https://github.com/ihower/sandbox) 為例，如果你有寫入權限的話(被加入成Collaborators)，就可以用 SSH 協定 Clone 下來：
 
-	git clone git@github.com:ihower/sandbox.git	如果沒有寫入權限(Collaborators)的話，因為這個專案是公開的，所以你還是可以用*Git*協定*Clone*下來：	git clone git://github.com/ihower/sandbox.git
-
+	git clone git@github.com:ihower/sandbox.git	
 如果有防火牆問題，改用 HTTPS 協定：
 
 	git clone https://github.com/ihower/sandbox.git	
@@ -46,5 +45,9 @@ title: ihower 的 Git 教室
 
 	預設不會 push tags 資訊	git push --tags
 	
-	
+### git pull --rebase
+
+使用`git pull --rebase`可以避免無謂的 merge 節點，讓線圖變乾淨，是個非常有用的小技巧，特別是很多人在同一個 branch 同時開發的情況。
+
+請參考[使用 git rebase 避免無謂的 merge](http://ihower.tw/blog/archives/3843)。
 

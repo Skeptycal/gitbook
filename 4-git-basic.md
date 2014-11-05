@@ -49,7 +49,7 @@ Staging Area 算是 Git 獨有的功能，有什麼好處呢?
 	修改 a.rb	git add a.rb	再次修改 a.rb	git commit -m “commit a”	這時 commit 的內容是第一次修改當時的內容而已只 commit 同一檔案部分內容：
 	git add --patch		y 加到 staging		n 不要加到 staging		s 可以拆小一點 hunk	或者用 GUI 例如 gitx 來選取
 在 commit 之前如何復原修改? 使用 git reset 和 git checkout 指令，你打 git status 就有提示了，不需要記起來。
-### 刪除和搬移檔案
+### 刪除和搬移檔案
 	git rm a.rb	git mv b.rb c.rb	git add .	git commit “Remove a, Rename b to c”
 沒有 copy ? 因為 Git 是追蹤內容(相同內容SHA1相同)，你只要 cp 即可，不用擔心浪費空間。
 
@@ -62,7 +62,12 @@ Staging Area 算是 Git 獨有的功能，有什麼好處呢?
 ### 歷史紀錄
 
 	git log	git log --oneline	git log --oneline --decorate --graph	git log 很多參數可以用，但是建議還是用 GUI 吧...
-	
+### 查看程式碼逐行的歷史紀錄
+
+	git blame <filename>
+	git blame -L 100,10 <filename>  	
+`-L`參數可以從第一百行開始顯示10行
+	
 ### 比較差異 Diff
 
 	git diff <SHA1> 拿 Working Tree 比較	git diff <SHA1> <SHA1>	git diff --stat <SHA1>	git diff --cached 或 git diff --staged  	拿 Staging Area 來比較	

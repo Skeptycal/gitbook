@@ -14,6 +14,15 @@ Git 的 Repository 又稱作 Object Database 資料庫，共有四種 Objects �
 * Commit 記錄 commit 訊息、Root tree 和 Parent commits 的 SHA1
 * Tag 記錄標籤
 
+所謂的*SHA-1*是一種單向 Hash 雜湊加密演算法，例如它會將`hello`字串單向加密成為`aaf4c61ddcc5e8a2dabede0f3b482cd9aea9434d`。這個演算法有以下特性：
+
+* 給定 message 容易計算出 hash
+* 極度困難從 hash 推回 message
+* 極度困難修改 message 而 hash 不變
+* 極度困難不同的 messages 而 hash 一樣
+* hash 的分布很分散，跟 message 關聯不大
+
+
 ### 觀察 Git 內部如何儲存檔案
 
 	echo sweet > sweet.txt	git add .	find .git/objects -type f	Git 內部儲存在 .git/objects/aa/823728ea7d592acc69b36875a482cdf3fd5c8d	這是 "blob" SP "6" NUL "sweet" LF 的 SHA1	printf "blob 6\000sweet\n" | shasum	或 echo 'sweet' | git hash-object -w --stdin	git cat-file -p aa823728ea7d592acc69b36875a482cdf3fd5c8d

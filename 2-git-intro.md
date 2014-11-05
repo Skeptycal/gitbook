@@ -19,6 +19,8 @@ Git 是由 Linus Torvalds 所發明，一開始的目的是為了管理 Linux Ke
 
 ![Git graph example](images/intro-1.png)
 
+在本機安裝 Git 前，推薦[Try Git 十五分鐘體驗](https://www.codeschool.com/courses/try-git)這份免費教材，可以提前對Git的指令有基本的認識。
+
 ## Git 安裝
 
 ### 安裝步驟 (Ubuntu)
@@ -44,13 +46,13 @@ Git 是由 Linus Torvalds 所發明，一開始的目的是為了管理 Linux Ke
 
 ### 安裝步驟 (Windows)
 
-Windows 的 Git 請安裝 [msysgit](http://code.google.com/p/msysgit/)。如果是透過 RailsInstaller 安裝，則已經附帶安裝好了。請參考以下步驟產生 SSH key：
+Windows 的 Git 請至官網下載安裝 [Git Downloads](http://git-scm.com/download/win)。如果是透過 RailsInstaller 安裝，則已經附帶安裝好了。請參考以下步驟產生 SSH key：
 
     $ c:\RailsInstaller\Git\bin\ssh-keygen.exe -t rsa -C "your_email@example.org"
 
 接著用文字編輯器打開 "%homedrive%%homepath%\.ssh\id_rsa.pub" 的內容，即是你的 Public SSH key。
 
-> 如果需要 GUI 介面，可以加裝 [http://code.google.com/p/tortoisegit/](http://code.google.com/p/tortoisegit/)，記得進 Settings 修改 Git path 至 C:\RubyInstall\Git\bin 即可。可以參考這份[投影片](http://www.slideshare.net/jason8301/tortoisegit-intro-in-traditional-chinese)。
+> 如果需要 GUI 介面，可以加裝 [SourceTree](http://www.sourcetreeapp.com/)。
 
 Windows 平台上還有一件要注意的事情，就是對於換行字元的處理與 Unix/Mac 平台不同，會讓 Git 誤判成有修改，因此需要多以下設定：
 
@@ -63,7 +65,7 @@ Windows 平台上還有一件要注意的事情，就是對於換行字元的處
 
 ### 安裝步驟 (Mac)
 
-如果是透過 [Homebrew](http://mxcl.github.com/homebrew/) 安裝的話：
+Mac 內建就有 Git 了。如果需要安裝最新版，可以用 [Homebrew](http://brew.sh/)：
 
     $  brew install git
 
