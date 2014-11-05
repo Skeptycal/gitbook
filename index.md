@@ -38,9 +38,9 @@ title: ihower 的 Git 教室
 ### 其他英文資源
 
 * [Git 官方網站](http://git-scm.com/)
-* [Try Git](https://www.codeschool.com/courses/try-git)
-* [Git Reference](http://gitref.org/)
-* [GIT IMMERSION](http://gitimmersion.com/)
-* [git ready](http://gitready.com/)
-* [Pro Git book](https://progit.org/)
-* [GitHub Help](https://help.github.com/)
+* [Try Git](https://www.codeschool.com/courses/try-git) 提供15分鐘的線上的入門體驗
+* [Git Reference](http://gitref.org/) Git 指令參考
+* [GIT IMMERSION](http://gitimmersion.com/) 53個操作LAB練習
+* [git ready](http://gitready.com/) 一些操作秘訣
+* [Pro Git book](https://progit.org/) 免費的Git書
+* [GitHub Help](https://help.github.com/) GitHub 的文件
