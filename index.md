@@ -20,7 +20,11 @@ title: ihower 的 Git 教室
 * [Git Tutorial](files/ihower-git.pdf)
 * [Git 分支開發流程和策略](files/ihower-git-workflow.pdf)
 * [Git 剖析內部設計](files/ihower-git-internal.pdf)
-                       
+
+### 錄影
+
+* [Git 剖析內部設計+分支開發流程和策略](https://www.youtube.com/watch?v=uoUzH9QaI8Q)
+
 ### 部落格文章
 
 * [Github 分散式版本控制的殺手級應用](http://ihower.tw/blog/archives/1733)
