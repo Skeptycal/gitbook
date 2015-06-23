@@ -36,8 +36,8 @@ Git 是分散式的，表示你不需要伺服器，在本地端就有完整的*
 
 * 沒有被追蹤的檔案 Untracked files
 * 有修改、還沒準備要被遞交 Changes not staged for commit
-* 有修改、準備要被遞交的檔案(在Staging Area) Changes to be commtted
-* 已經被遞交的檔案 Commtted
+* 有修改、準備要被遞交的檔案(在Staging Area) Changes to be committed
+* 已經被遞交的檔案 Committed
 
 Staging Area 算是 Git 獨有的功能，有什麼好處呢?
 
