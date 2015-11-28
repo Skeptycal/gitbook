@@ -21,9 +21,12 @@ title: ihower 的 Git 教室
 * [Git 分支開發流程和策略](files/ihower-git-workflow.pdf)
 * [Git 剖析內部設計](files/ihower-git-internal.pdf)
 
-### 錄影
+### 演講錄影
 
-* [Git 剖析內部設計+分支開發流程和策略](https://www.youtube.com/watch?v=uoUzH9QaI8Q)
+* [Git 剖析內部設計+分支開發流程和策略](https://www.youtube.com/watch?v=uoUzH9QaI8Q) at LIVEhouse 2014/11
+
+* [Git Tutorial](https://www.youtube.com/playlist?list=PLuW7NCGvKlyWK161j-nmb13aerUU-zWdd) at OSSF 工作坊 2014/1
+* [Git 剖析內部設計](https://www.youtube.com/watch?v=Tn2SQSHfCr4) at COSCUP 2013/8
 
 ### 部落格文章
 
