@@ -46,9 +46,9 @@ Git 是由 Linus Torvalds 所發明，一開始的目的是為了管理 Linux Ke
 
 ### 安裝步驟 (Windows)
 
-Windows 的 Git 請至官網下載安裝 [Git Downloads](http://git-scm.com/download/win)。如果是透過 RailsInstaller 安裝，則已經附帶安裝好了。請參考以下步驟產生 SSH key：
+Windows 的 Git 請至官網下載安裝 [Git Downloads](http://git-scm.com/download/win)。用以下步驟產生 SSH key：
 
-    $ c:\RailsInstaller\Git\bin\ssh-keygen.exe -t rsa -C "your_email@example.org"
+    $ ssh-keygen -t rsa -C "your_email@example.org"
 
 接著用文字編輯器打開 "%homedrive%%homepath%\.ssh\id_rsa.pub" 的內容，即是你的 Public SSH key。
 
