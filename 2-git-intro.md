@@ -4,7 +4,7 @@ permalink: intro.html
 title: ihower 的 Git 教室
 ---
 
-## Git 簡介
+# Git 簡介
 
 版本控制系統是當代軟體開發所不可或缺的工具，而 Git 是其中最先進和熱門、且為開放原始碼的分散式版本控制系統(DVCS)。
 
@@ -129,7 +129,7 @@ Mac 內建就有 Git 了。如果需要安裝最新版，可以用 [Homebrew](ht
 
     PS1="[\[\033[1;32m\]\w\[\033[0m\]] \[\033[0m\]\[\033[1;36m\]\$(git_branch)\[\033[0;33m\]\$(git_since_last_commit)\[\033[0m\]$ "
 
-### 參考資料
+## 參考資料
 
 * [Why Git is Better than X](http://thkoch2001.github.com/whygitisbetter/)
 * [用 Git 表示台北捷運](http://gugod.org/2009/12/git-graphing/)

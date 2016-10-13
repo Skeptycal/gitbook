@@ -6,7 +6,13 @@ title: ihower 的 Git 教室
 
 我是*[ihower](http://ihower.tw)*，本教材將介紹*[Git](http://git-scm.com/)*這套開放源碼、分散式的版本控制系統。
 
-### 教材目錄
+## 投影片下載
+
+* [Git Tutorial](files/ihower-git.pdf)
+* [Git 分支開發流程和策略](files/ihower-git-workflow.pdf)
+* [Git 剖析內部設計](files/ihower-git-internal.pdf)
+
+## 目錄
 
 * [版本控制系統](vcs.html)
 * [Git 簡介與安裝](intro.html)
@@ -15,19 +21,13 @@ title: ihower 的 Git 教室
 * [Git 團隊協同開發指令](remote.html)
 * [Git 還沒 push 前可以做的壞事](rebase.html)
 
-### 投影片下載
-
-* [Git Tutorial](files/ihower-git.pdf)
-* [Git 分支開發流程和策略](files/ihower-git-workflow.pdf)
-* [Git 剖析內部設計](files/ihower-git-internal.pdf)
-
-### 演講錄影
+## 演講錄影
 
 * [Git 剖析內部設計+分支開發流程和策略](https://www.youtube.com/watch?v=uoUzH9QaI8Q) at LIVEhouse 2014/11
 * [Git Tutorial](https://www.youtube.com/playlist?list=PLuW7NCGvKlyWK161j-nmb13aerUU-zWdd) at OSSF 工作坊 2014/1
 * [Git 剖析內部設計](https://www.youtube.com/watch?v=Tn2SQSHfCr4) at COSCUP 2013/8
 
-### 部落格文章
+## 部落格文章
 
 * [Github 分散式版本控制的殺手級應用](http://ihower.tw/blog/archives/1733)
 * [Git 版本控制系統 (1)](http://ihower.tw/blog/archives/2591)
@@ -40,8 +40,7 @@ title: ihower 的 Git 教室
 * [Git rebase 和 merge 合併操作示範錄影](http://ihower.tw/blog/archives/6704/)
 * [談 Git 的開發流程](http://ihower.tw/blog/archives/7798)
 
-
-### 其他英文資源
+## 其他英文資源
 
 * [Git 官方網站](http://git-scm.com/)
 * [Try Git](https://www.codeschool.com/courses/try-git) 提供15分鐘的線上的入門體驗
