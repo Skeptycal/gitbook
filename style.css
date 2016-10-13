@@ -62,10 +62,9 @@ body {
   background: #F6f6F6 url(image/bg/base.png) repeat 0 0;
 }
 
-h3 {
+h2 {
   border-bottom: 1px solid #CCC;
   margin-bottom: .5em;
-  padding-bottom: .5em;
 }
 /* paragraphs */
 
@@ -505,11 +504,11 @@ container: 12*60px (unit) + 13*16px (gutter) = 928px = 58em = 100%
   display: none;
 }
 
-.save_a_tree h3 {
+.save_a_tree h2 {
   display: none;
 }
 
-.save_a_tree h3 {
+.save_a_tree h2 {
   line-height: 1.5;
   border-bottom: none;
 }
@@ -848,17 +847,13 @@ code {
   input[type="text"] {
     width: 100px;
   }
-  
+
   iframe {
     min-height: 400px;
     height:auto !important;
     height: 400px;
   }
-  
-}
 
-#submenu {
-    display: none;
 }
 
 blockquote {
@@ -873,3 +868,5 @@ em, code {
     padding-left: 3px;
     padding-right: 3px;
 }
+
+em {font:1em 'andale mono', 'lucida console'}
