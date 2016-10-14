@@ -1,7 +1,7 @@
 ---
 layout: default
 permalink: workflow.html
-title: ihower 的 Git 教室
+title: Git 開發模式與流程
 ---
 
 # Git 開發模式與流程

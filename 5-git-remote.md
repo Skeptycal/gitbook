@@ -1,7 +1,7 @@
 ---
 layout: default
 permalink: remote.html
-title: ihower 的 Git 教室
+title: Git 團隊協同開發指令
 ---
 
 # Git 團隊協同開發指令

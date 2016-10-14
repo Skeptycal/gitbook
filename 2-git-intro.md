@@ -1,7 +1,7 @@
 ---
 layout: default
 permalink: intro.html
-title: ihower 的 Git 教室
+title: Git 簡介
 ---
 
 # Git 簡介

@@ -1,12 +1,13 @@
 ---
 layout: default
 permalink: rebase.html
-title: ihower 的 Git 教室
+title: 還沒 push 前可以做的事
 ---
 
-# 還沒 push 前可以做的(壞)事
+# 還沒 push 前可以做的事
 
 不同於 SVN 等中央式版本控制系統，Git 的 Commit 其實還在本地端，所以可以修改 commit logs!!
+
 * 修改 commit 訊息，甚至內容
 * 合併 commits
 * 打散 commit 成多個 commits

@@ -1,7 +1,7 @@
 ---
 layout: default
 permalink: internal.html
-title: ihower 的 Git 教室
+title: Git 內部原理
 ---
 
 # Git 內部原理

@@ -1,7 +1,7 @@
 ---
 layout: default
 permalink: basic.html
-title: ihower 的 Git 教室
+title: Git 基本操作
 ---
 
 本章介紹 Git 的本地操作指令，不需要網路即可操作。
@@ -95,7 +95,7 @@ staging 之後又再修改內容：
 	git mv b.rb c.rb
 	git add .
 	git commit “Remove a, Rename b to c”
-	
+
 沒有 copy ? 因為 Git 是追蹤內容(相同內容SHA1相同)，你只要 cp 即可，不用擔心浪費空間。
 
 ## revert (還原 commit 記錄)
@@ -248,7 +248,7 @@ Branch 更名和刪除
 
 		git merge foobar -s recursive -X ours
 		git merge foobar -s recursive -X theirs
-		
+
 2. resolve，直接挑一個共同的祖先進行 three-way merge
 3. octopus，當合併超過兩個以上的 branchs 時
 4. ours，只用自己的 branch 的 commits

@@ -1,7 +1,7 @@
 ---
 layout: default
 permalink: vcs.html
-title: ihower 的 Git 教室
+title: 版本控制系統簡介
 ---
 
 # 版本控制系統
