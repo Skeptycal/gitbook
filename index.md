@@ -6,6 +6,10 @@ title: ihower 的 Git 教室
 
 我是*[ihower](http://ihower.tw)*，本教材將介紹*[Git](http://git-scm.com/)*這套開放源碼、分散式的版本控制系統。
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/sqtEYOMZ8lw?list=PLo1BzMywo4Ml20Kg5uaQZ074wgx6sbVOP" frameborder="0" allowfullscreen></iframe>
+
+這份教學系列影片涵蓋 Git Tutorial 投影片的前半部分。
+
 ## 投影片下載
 
 * [Git Tutorial](files/ihower-git.pdf)
