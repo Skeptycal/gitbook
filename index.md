@@ -4,7 +4,11 @@ permalink: index.html
 title: ihower 的 Git 教室
 ---
 
-我是*[ihower](http://ihower.tw)*，本教材將介紹*[Git](http://git-scm.com/)*這套開放源碼、分散式的版本控制系統。
+## 前言
+
+我是 [ihower](https://ihower.tw)，這份教材介紹 [Git](http://git-scm.com/) 這套版本控制系統。
+
+## 課程影片
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/sqtEYOMZ8lw?list=PLo1BzMywo4Ml20Kg5uaQZ074wgx6sbVOP" frameborder="0" allowfullscreen></iframe>
 
